@@ -1,0 +1,55 @@
+* {
+  font-family: outfit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+  background-color: #d8ede5; }
+
+.main {
+  position: relative;
+  height: 100%; }
+
+.container {
+  background-color: #f7f5f5;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
+  width: 16rem; }
+
+.QRcode--image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 1rem;
+  width: 15rem;
+  border-radius: 2rem; }
+
+.text--bold {
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  color: #1a0202;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem; }
+
+.text--regular {
+  font-weight: 400;
+  font-size: 0.8rem;
+  display: block;
+  text-align: center;
+  color: #646464;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem; }
